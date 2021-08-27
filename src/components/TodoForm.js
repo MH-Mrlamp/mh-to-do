@@ -19,7 +19,7 @@ function TodoForm({ addTodo }) {
     e.preventDefault(); // prevents browser refresh
     // trim() gets rid of string whitespace
     if (todo.task.trim()) {
-      addTodo({ ...todo, id: uuid.v4});
+      addTodo({ ...todo, id: uuid()});
       setTodo({ ...todo, task: "" });
     }
   }

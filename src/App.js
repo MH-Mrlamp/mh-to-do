@@ -29,22 +29,24 @@ function App() {
   }
 
   function toggleComplete(id) {
-        setTodos(
-          todos.map(todo => {
-            if (todo.id === id) {
-              return {
-                ...todo,
-                completed: !todo.completed
-              };
-            }
-            return todo;
-          })
-        );
-      }
+    setTodos(
+     todos.map(todo => {
+      if (todo.id === id) {
+        return {
+         ...todo,
+          completed: !todo.completed
+         };
+        }
+      return todo;
+    })
+   );
+  }
 
   function removeTodo(id) {
         setTodos(todos.filter(todo => todo.id !== id));
-      }
+        console.log(todos)
+  }
+
   return (
     <div>
       <Typography style={{ padding: 16 }} variant="h1">React Todo</Typography>
@@ -57,5 +59,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App;
