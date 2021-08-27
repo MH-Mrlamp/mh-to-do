@@ -47,9 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <Typography style={{ padding: 16 }} variant="h1">
-        React Todo
-      </Typography>
+      <Typography style={{ padding: 16 }} variant="h1">React Todo</Typography>
       <TodoForm addTodo={addTodo} />
       <TodoList
         todos={todos}
@@ -60,4 +58,4 @@ function App() {
   );
 }
 
-export default todo;
+export default App;
