@@ -50,12 +50,12 @@ function App() {
   return (
     <div>
       <Typography style={{ padding: 16 }} variant="h1">React Todo</Typography>
-      <TodoForm addTodo={addTodo} />
-      <TodoList
-        todos={todos}
-        removeTodo={removeTodo}
-        toggleComplete={toggleComplete}
-      />
+        <TodoForm addTodo={addTodo} />
+        <TodoList
+          todos={todos}
+          removeTodo={removeTodo}
+          toggleComplete={toggleComplete}
+        />
     </div>
   )
 }
