@@ -1,11 +1,11 @@
-/* .App {
+.App {
   text-align: center;
   display: flex;
   height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-} */
+}
 
 body,
 html,
@@ -24,10 +24,10 @@ li {
   text-align: initial;
 }
 
-/* .App-logo {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
-} */ 
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,7 +35,7 @@ li {
   }
 }
 
-/* .App-header {
+/* /* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -44,7 +44,7 @@ li {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
  .App-link {
   color: #61dafb;
